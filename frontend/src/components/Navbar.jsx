@@ -71,13 +71,14 @@ const Navbar = () => {
               {" "}
               <Typography
                 sx={{
-                  color: "#004d40",
+                  color: "#3e2723",
                   boxShadow: 5,
                   fontFamily: `'Myriad Pro Regular'`,
                   fontSize: "1.5rem",
+                  px:5,py:1,borderRadius:5
                 }}
               >
-                <strong>movieBooker</strong>
+                <strong >movieBooker</strong>
               </Typography>
             </Link>
           </Grid>
