@@ -54,7 +54,7 @@ const UserLogin = () => {
                     </Grid>
                     <Grid sx={{ display: 'flex', flexDirection: 'column', alignItems: 'center',mb:3 }}>
                         <p>or</p>
-                        <Link to='/partners' style={{ textDecoration: 'none', }}><Button  sx={{  width: '100%', textTransform: 'none', color:'#833445'  }}>Log in as a partner</Button></Link>
+                        <Link to='/partners/register' style={{ textDecoration: 'none', }}><Button  sx={{  width: '100%', textTransform: 'none', color:'#833445'  }}>Log in as a partner</Button></Link>
                         {/* <Link to='/admin' style={{ textDecoration: 'none',color:'white', fontWeight:'bold' }}><Button sx={{ textDecoration: 'none',bgcolor:'#212121','&:hover':{bgcolor:'black'}}} variant='contained'>Signup as partner</Button></Link> */}
                     </Grid>
                 </Paper>
